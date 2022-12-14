@@ -9,7 +9,7 @@
 
 - [X] Criar Repositório
 - [X] Adicionar as imagens que serão usadas
-- [ ] Criar Background da Página
+- [X] Criar Background da Página
 - [ ] Estruturar Header
 - [ ] Estilizar Header
 - [ ] Esturural a Main principal
@@ -44,3 +44,8 @@
 
 - [ ] Efeitos sonoros especiais
 - [ ] Criar botão de tema
+
+
+~~~~~~css
+background-image: radial-gradient(circle farthest-side at 50% 0%, #1E3756 10%, #131637 100%);
+~~~~~~
