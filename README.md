@@ -10,7 +10,7 @@
 - [X] Criar Repositório
 - [X] Adicionar as imagens que serão usadas
 - [X] Criar Background da Página
-- [ ] Estruturar Header
+- [X] Estruturar Header
 - [ ] Estilizar Header
 - [ ] Esturural a Main principal
 - [ ] Estilizar a Main Principal
