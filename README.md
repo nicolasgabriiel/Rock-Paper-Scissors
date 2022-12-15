@@ -12,7 +12,7 @@
 - [X] Criar Background da Página
 - [X] Estruturar Header
 - [X] Importar Fonte
-- [ ] Estilizar Header
+- [X] Estilizar Header
 - [ ] Esturural a Main principal
 - [ ] Estilizar a Main Principal
 - [ ] Estruturar o botão rules no footer
