@@ -17,7 +17,7 @@
 - [X] Estilizar a Main Principal
 - [X] Estruturar o botão rules no footer
 - [X] Estilizar o botão rules do footer
-- [ ] Receber o onclick do botão rules 
+- [X] Receber o onclick do botão rules 
 - [ ] Estruturar nova tela
 - [ ] Construir a lógica pra abrir nova tela
 - [ ] Estilizar nova tela de rules
