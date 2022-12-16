@@ -90,4 +90,27 @@ main{
     left: 240px;
     border: solid 20px #DC3A59;
 }
-
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.rules{
+    margin: 5% 3% 0 0;
+    padding: 15px 50px; 
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #EDEFFB;
+    font-weight: 700;
+    color: #EDEFFB;
+    border-radius: 12px;
+    letter-spacing: 4px;
+    transition: .3s;
+}
+.rules:hover{
+    cursor: pointer;
+    scale: 1.03;
+    border: 1px solid #131637;
+    color: #131637;
+    background-color: #EDEFFB ;
+}
