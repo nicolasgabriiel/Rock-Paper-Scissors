@@ -13,8 +13,9 @@
 - [X] Estruturar Header
 - [X] Importar Fonte
 - [X] Estilizar Header
-- [ ] Esturural a Main principal
+- [X] Esturural a Main principal
 - [ ] Estilizar a Main Principal
+- [ ] Exibir o background dos botões por meio do js
 - [ ] Estruturar o botão rules no footer
 - [ ] Estilizar o botão rules do footer
 - [ ] Receber o onclick do botão rules 
