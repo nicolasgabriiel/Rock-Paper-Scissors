@@ -14,8 +14,7 @@
 - [X] Importar Fonte
 - [X] Estilizar Header
 - [X] Esturural a Main principal
-- [ ] Estilizar a Main Principal
-- [ ] Exibir o background dos botões por meio do js
+- [X] Estilizar a Main Principal
 - [ ] Estruturar o botão rules no footer
 - [ ] Estilizar o botão rules do footer
 - [ ] Receber o onclick do botão rules 
@@ -25,6 +24,7 @@
 - [ ] Receber o onclik pra fechar
 - [ ] Construir a lógica pra fechar 
 - [ ] Receber o input de todos os Botões principais
+- [ ] Exibir o background dos botões por meio do js
 - [ ] Criar lógica de selecionar
 - [ ] Exibir o Selecionado
 - [ ] Criar lógica de escolher algum aleatóriamente
@@ -41,6 +41,7 @@
 - [ ] Aplicar o Responsivo na Aba Rules
 - [ ] Aplicar testes para ver se tudo funciona adequadamente
 - [ ] Corrigir possíveis bugs que apareçam na última etapa
+- [ ] Melhorar Sombras e tamanho dos botoes 
 
 ### Bônus
 
