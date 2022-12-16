@@ -15,7 +15,7 @@
 - [X] Estilizar Header
 - [X] Esturural a Main principal
 - [X] Estilizar a Main Principal
-- [ ] Estruturar o botão rules no footer
+- [X] Estruturar o botão rules no footer
 - [ ] Estilizar o botão rules do footer
 - [ ] Receber o onclick do botão rules 
 - [ ] Estruturar nova tela
