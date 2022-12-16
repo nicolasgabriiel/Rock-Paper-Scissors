@@ -114,3 +114,12 @@ footer{
     color: #131637;
     background-color: #EDEFFB ;
 }
+body .teste-rules{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    background-color: red;
+}
+.hide{
+    display: none !important;
+}
