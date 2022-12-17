@@ -18,11 +18,14 @@
 - [X] Estruturar o botão rules no footer
 - [X] Estilizar o botão rules do footer
 - [X] Receber o onclick do botão rules 
-- [ ] Estruturar nova tela
+- [X] Criar Lógica pra desabiltar toda a página
 - [ ] Construir a lógica pra abrir nova tela
+- [ ] Estruturar nova tela
 - [ ] Estilizar nova tela de rules
 - [ ] Receber o onclik pra fechar
+- [ ] Criar Lógica pra habilitar a tela 
 - [ ] Construir a lógica pra fechar 
+- [ ] Arrumar todos os posicionamentos dos botões
 - [ ] Receber o input de todos os Botões principais
 - [ ] Exibir o background dos botões por meio do js
 - [ ] Criar lógica de selecionar

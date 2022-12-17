@@ -65,6 +65,10 @@ main{
     scale: 1.02;
     cursor: pointer;
 }
+.button[disabled]:hover{
+    scale: 1.00;
+    cursor: auto;
+}
 .button1{
     top: -70px;
     left: 120px;
@@ -97,8 +101,8 @@ footer{
 }
 .rules{
     margin: 5% 3% 0 0;
-    padding: 15px 50px; 
-    font-size: 20px;
+    padding: 12px 35px; 
+    font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #EDEFFB;
     font-weight: 700;
@@ -106,6 +110,7 @@ footer{
     border-radius: 12px;
     letter-spacing: 4px;
     transition: .3s;
+    background-color: transparent;
 }
 .rules:hover{
     cursor: pointer;
@@ -114,6 +119,13 @@ footer{
     color: #131637;
     background-color: #EDEFFB ;
 }
+.rules[disabled]:hover {
+    cursor: auto;
+    scale: 1;
+    border: 1px solid #EDEFFB;
+    color: #EDEFFB;
+    background-color: transparent ;
+ }
 body .teste-rules{
     width: 50%;
     height: 500px;
