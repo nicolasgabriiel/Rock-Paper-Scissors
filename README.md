@@ -20,7 +20,7 @@
 - [X] Receber o onclick do botão rules 
 - [X] Criar Lógica pra desabiltar toda a página
 - [X] Construir a lógica pra abrir nova tela
-- [ ] Estruturar nova tela
+- [X] Estruturar nova tela
 - [ ] Estilizar nova tela de rules
 - [ ] Receber o onclik pra fechar
 - [ ] Criar Lógica pra habilitar a tela 
