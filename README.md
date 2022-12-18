@@ -24,7 +24,7 @@
 - [X] Estilizar nova tela de rules
 - [X] Receber o onclik pra fechar
 - [X] Criar Lógica pra habilitar a tela 
-- [ ] Construir a lógica pra fechar 
+- [x] Construir a lógica pra fechar 
 - [ ] Arrumar todos os posicionamentos dos botões
 - [ ] Receber o input de todos os Botões principais
 - [ ] Exibir o background dos botões por meio do js

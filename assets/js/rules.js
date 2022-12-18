@@ -33,6 +33,7 @@ function mostrarRules(){
 xRules.addEventListener('click', fecharRules)
 function fecharRules(){
     habilitarPagina()
+    ocultarRules()
 }
 function habilitarPagina (){
         //habilitando os botões clicaveis
@@ -44,4 +45,8 @@ function habilitarPagina (){
         document.querySelector('header').style.opacity = "1"
         document.querySelector('.container-buttons').style.opacity = "1"
         document.querySelector('footer').style.opacity = "1"
+}
+//Função que oculta a Página Rules oculta
+function ocultarRules(){
+    pageRules.classList.add('hide')
 }
