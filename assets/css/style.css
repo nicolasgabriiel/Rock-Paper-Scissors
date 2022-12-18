@@ -94,6 +94,7 @@ main{
     left: 240px;
     border: solid 20px #DC3A59;
 }
+/*           F O O T E R          */
 footer{
     display: flex;
     justify-content: right;
@@ -126,12 +127,14 @@ footer{
     color: #EDEFFB;
     background-color: transparent ;
  }
-body .teste-rules{
+ /*      P A G E    R U L E S       */
+body .page-rules{
     width: 50%;
     height: 500px;
     position: absolute;
     background-color: red;
 }
+/*      G E R A I S         */
 .hide{
     display: none !important;
 }

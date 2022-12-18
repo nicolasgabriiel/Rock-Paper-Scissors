@@ -19,7 +19,7 @@
 - [X] Estilizar o botão rules do footer
 - [X] Receber o onclick do botão rules 
 - [X] Criar Lógica pra desabiltar toda a página
-- [ ] Construir a lógica pra abrir nova tela
+- [X] Construir a lógica pra abrir nova tela
 - [ ] Estruturar nova tela
 - [ ] Estilizar nova tela de rules
 - [ ] Receber o onclik pra fechar
