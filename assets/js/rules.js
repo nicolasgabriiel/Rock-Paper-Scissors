@@ -13,11 +13,12 @@ mostrarRules()
 }
 //Função que torna toda a página ofuscada e desabilita os clicks da página
 function ofuscarPagina (){
+    //desabilitando os botões clicaveis
     buttonRules.disabled = true
     for(var i = 0; i < listaBotoes.length ; i ++){
      listaBotoes[i].disabled = true
-     console.log(listaBotoes[i].disabled)
     }
+    //tornadno os elementos ofuscados
     document.querySelector('header').style.opacity = ".2"
     document.querySelector('.container-buttons').style.opacity = ".2"
     document.querySelector('footer').style.opacity = ".2"
