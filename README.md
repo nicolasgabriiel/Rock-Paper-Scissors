@@ -22,7 +22,7 @@
 - [X] Construir a lógica pra abrir nova tela
 - [X] Estruturar nova tela
 - [X] Estilizar nova tela de rules
-- [ ] Receber o onclik pra fechar
+- [X] Receber o onclik pra fechar
 - [ ] Criar Lógica pra habilitar a tela 
 - [ ] Construir a lógica pra fechar 
 - [ ] Arrumar todos os posicionamentos dos botões

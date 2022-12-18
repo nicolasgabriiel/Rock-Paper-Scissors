@@ -4,6 +4,8 @@ const buttonRules = document.getElementById('rules')
 const listaBotoes = document.querySelectorAll('.button')
 //Armazena a Página Oculta Rules
 const pageRules = document.getElementById('pageRules')
+//Armazena o Botão que fecha a Rules
+const xRules = document.getElementById('fechar-rules')
 
 //Quando o botão rules for clicado, executa a função abrirRules
 buttonRules.addEventListener('click', abrirRules)
@@ -26,4 +28,8 @@ function ofuscarPagina (){
 //Função que mostra a Página Rules oculta
 function mostrarRules(){
     pageRules.classList.remove('hide')
+}
+xRules.addEventListener('click', fecharRules)
+function fecharRules(){
+    console.log('aaa')
 }
