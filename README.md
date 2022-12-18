@@ -29,7 +29,10 @@
 - [X] Receber o input de todos os Botões principais
 - [X] Exibir o background dos botões 
 - [X] Criar lógica de selecionar
-- [ ] Exibir o Selecionado
+- [x] Estruturar section onde acontecerá a disputa
+- [ ] Criar Lógica de ocultar as sections quando um botão for clicado
+- [ ] Exibir a div oculta com o bnotão Selecionado
+- [ ] Estilizar section onde acontecerá a disputa
 - [ ] Criar lógica de escolher algum aleatóriamente
 - [ ] Criar Lógica de vencedor
 - [ ] Exibir o Resultado na tela
