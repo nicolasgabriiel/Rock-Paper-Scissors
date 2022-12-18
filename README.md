@@ -25,7 +25,7 @@
 - [X] Receber o onclik pra fechar
 - [X] Criar Lógica pra habilitar a tela 
 - [x] Construir a lógica pra fechar 
-- [ ] Arrumar todos os posicionamentos dos botões
+- [x] Arrumar todos os posicionamentos dos botões
 - [ ] Receber o input de todos os Botões principais
 - [ ] Exibir o background dos botões por meio do js
 - [ ] Criar lógica de selecionar

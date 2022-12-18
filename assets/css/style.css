@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
-
+/*      G E R A I S         */
+.hide{
+    display: none !important;
+}
 body{
     width: 100%;
     height: calc(100vh - 50px);
@@ -55,11 +58,12 @@ main{
 }
 .button{
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 75px;
     background-color: #E6E6E6;
     transition: .2s;
+    display: block;
 }
 .button:hover{
     scale: 1.02;
@@ -165,14 +169,3 @@ footer{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-/*      G E R A I S         */
-.hide{
-    display: none !important;
-}
