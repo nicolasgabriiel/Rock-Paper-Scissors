@@ -64,6 +64,9 @@ main{
     background-color: #E6E6E6;
     transition: .2s;
     display: block;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .button:hover{
     scale: 1.02;
@@ -77,26 +80,31 @@ main{
     top: -70px;
     left: 120px;
     border: solid 20px #EBA418;
+    background-image: url(../images/icon-scissors.svg);
 }
 .button2{
     top: -70px;
     left: 320px;
     border: solid 20px #4A6BF2;
+    background-image: url(../images/icon-paper.svg);
 }
 .button3{
     top: -220px;
     left: -80px;
     border: solid 20px #4DBAD1;
+    background-image: url(../images/icon-spock.svg);
 }
 .button4{
     top: -150px;
     left: 20px;
     border: solid 20px #8C58E8;
+    background-image: url(../images/icon-lizard.svg);
 }
 .button5{
     top: -300px;
     left: 240px;
     border: solid 20px #DC3A59;
+    background-image: url(../images/icon-rock.svg);
 }
 /*           F O O T E R          */
 footer{

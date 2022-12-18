@@ -27,7 +27,7 @@
 - [x] Construir a lógica pra fechar 
 - [x] Arrumar todos os posicionamentos dos botões
 - [X] Receber o input de todos os Botões principais
-- [ ] Exibir o background dos botões por meio do js
+- [X] Exibir o background dos botões 
 - [ ] Criar lógica de selecionar
 - [ ] Exibir o Selecionado
 - [ ] Criar lógica de escolher algum aleatóriamente
