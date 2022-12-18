@@ -38,7 +38,7 @@ function fecharRules(){
 function habilitarPagina (){
         //habilitando os botões clicaveis
         buttonRules.disabled = false
-        for(var i = 0; i < listaBotoes.length ; i ++){
+        for(let i = 0; i < listaBotoes.length ; i ++){
          listaBotoes[i].disabled = false
         }
         //tornadno os elementos visíveis

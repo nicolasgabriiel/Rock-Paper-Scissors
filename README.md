@@ -26,7 +26,7 @@
 - [X] Criar Lógica pra habilitar a tela 
 - [x] Construir a lógica pra fechar 
 - [x] Arrumar todos os posicionamentos dos botões
-- [ ] Receber o input de todos os Botões principais
+- [X] Receber o input de todos os Botões principais
 - [ ] Exibir o background dos botões por meio do js
 - [ ] Criar lógica de selecionar
 - [ ] Exibir o Selecionado
