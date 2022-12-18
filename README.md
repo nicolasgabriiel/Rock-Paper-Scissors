@@ -28,7 +28,7 @@
 - [x] Arrumar todos os posicionamentos dos botões
 - [X] Receber o input de todos os Botões principais
 - [X] Exibir o background dos botões 
-- [ ] Criar lógica de selecionar
+- [X] Criar lógica de selecionar
 - [ ] Exibir o Selecionado
 - [ ] Criar lógica de escolher algum aleatóriamente
 - [ ] Criar Lógica de vencedor
