@@ -29,7 +29,19 @@ function ofuscarPagina (){
 function mostrarRules(){
     pageRules.classList.remove('hide')
 }
+//Quando o botão x for clicado, executa a função fecharRules
 xRules.addEventListener('click', fecharRules)
 function fecharRules(){
-    console.log('aaa')
+    habilitarPagina()
+}
+function habilitarPagina (){
+        //habilitando os botões clicaveis
+        buttonRules.disabled = false
+        for(var i = 0; i < listaBotoes.length ; i ++){
+         listaBotoes[i].disabled = false
+        }
+        //tornadno os elementos visíveis
+        document.querySelector('header').style.opacity = "1"
+        document.querySelector('.container-buttons').style.opacity = "1"
+        document.querySelector('footer').style.opacity = "1"
 }
