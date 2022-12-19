@@ -30,7 +30,7 @@
 - [X] Exibir o background dos botões 
 - [X] Criar lógica de selecionar
 - [x] Estruturar section onde acontecerá a disputa
-- [ ] Criar Lógica de ocultar as sections quando um botão for clicado
+- [X] Criar Lógica de ocultar as sections quando um botão for clicado
 - [ ] Exibir a div oculta com o bnotão Selecionado
 - [ ] Estilizar section onde acontecerá a disputa
 - [ ] Criar lógica de escolher algum aleatóriamente
