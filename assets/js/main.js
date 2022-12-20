@@ -4,12 +4,15 @@ const containerDisputa = document.querySelector('.container-disputa')
 
 let youPicked = document.querySelector('.you-picked')
 
+let housePicked = document.querySelector('.house-picked')
+
 let codigo;
 function seletor(code){
     codigo = code
     fecharPrincipal()
     mostrarIndividual()
     selectionOne()
+    selectionTwo()
    
 }
 
@@ -37,4 +40,10 @@ function selectionOne(){
     }else{
         youPicked.classList.add('button4')
     }
+}
+function selectionTwo() {
+    housePicked.classList.add('button')
+    housePicked.classList.add('button-individual')
+    housePicked.classList.add('house-Vazia')
+
 }

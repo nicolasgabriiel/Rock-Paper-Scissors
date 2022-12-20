@@ -149,6 +149,7 @@ footer{
     padding: 3%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 4px rgba(25,20,20,0.75);
+    z-index: 999;
 }
 .cabecalho-rules{
     display: flex;
@@ -176,4 +177,79 @@ footer{
     margin-top: 40px;
     width: 100%;
 }
+/*      Página de disputa         */ 
+.container-disputa{
+    margin-top: 30px;
+    width: 45%;
+    height: 375px;
+    margin-bottom: 70px;
+    /* mudar a width pra 60% */
+}
 
+.imagens-disputa{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-disputa{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-disputa h3{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2%;
+    margin-bottom: 50px;
+}
+.titulo-disputa:first-child{
+    margin-left: 7%;
+}
+.titulo-disputa h3:last-child{
+   margin-right: 2.5%;
+}
+
+.button-individual{
+ position: initial;
+ border-radius: 165px;
+ width: 250px;
+height: 250px;
+border-width: 40px;
+}
+.button-individual:hover{
+    scale: 1;
+    cursor: initial;
+
+}
+.house-Vazia{
+background-color: #111A30;
+border: 40px solid #111A30;
+}
+.mensagem-vencedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center ;
+}
+.mensagem-vencedor h4{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.mensagem-vencedor button{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px 60px;
+    color: #4B4F64;
+    transition: .5s;
+}
+.mensagem-vencedor button:hover{
+    cursor: pointer;
+    scale: 1.04;
+    color: black;
+}

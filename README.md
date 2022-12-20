@@ -32,7 +32,7 @@
 - [x] Estruturar section onde acontecerá a disputa
 - [X] Criar Lógica de ocultar as sections quando um botão for clicado
 - [x] Exibir a div oculta com o botão Selecionado
-- [ ] Estilizar section onde acontecerá a disputa
+- [x] Estilizar section onde acontecerá a disputa
 - [ ] Criar lógica de escolher algum aleatóriamente
 - [ ] Criar Lógica de vencedor
 - [ ] Exibir o Resultado na tela
@@ -48,6 +48,7 @@
 - [ ] Aplicar testes para ver se tudo funciona adequadamente
 - [ ] Corrigir possíveis bugs que apareçam na última etapa
 - [ ] Melhorar Sombras e tamanho dos botoes 
+- [ ] Criando um bom Readme para o projeto
 
 ### Bônus
 
