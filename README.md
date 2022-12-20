@@ -33,9 +33,9 @@
 - [X] Criar Lógica de ocultar as sections quando um botão for clicado
 - [x] Exibir a div oculta com o botão Selecionado
 - [x] Estilizar section onde acontecerá a disputa
-- [ ] Criar lógica de escolher algum aleatóriamente
+- [X] Criar lógica de escolher algum aleatóriamente
 - [ ] Criar Lógica de vencedor
-- [ ] Exibir o Resultado na tela
+- [X] Exibir o Resultado na tela
 - [ ] Criar o efeito de background no vencedor
 - [ ] Receber o input do elemento play again
 - [ ] Criar lógica pra escolher novamente

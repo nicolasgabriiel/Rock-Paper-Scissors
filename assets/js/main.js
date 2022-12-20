@@ -2,6 +2,8 @@ const containerBotoes = document.querySelector('.container-buttons')
 
 const containerDisputa = document.querySelector('.container-disputa')
 
+const mensagemVencedor = document.querySelector('.mensagem-vencedor')
+
 let youPicked = document.querySelector('.you-picked')
 
 let housePicked = document.querySelector('.house-picked')
@@ -19,7 +21,8 @@ function seletor(code){
     selectionOne()
     selectionTwo()  
     gerarAleatório()
-    setTimeout(gerarOponente, 3000)
+    setTimeout(gerarOponente, 1000)
+    
 }
 
 function fecharPrincipal (){
@@ -84,4 +87,10 @@ function gerarOponente(){
         housePicked.classList.add('button5')
         codigoOponente = 'pedra'
     }
+    setTimeout(playAgain, 2000)
+}
+
+function playAgain (){
+    containerDisputa.style.width = "60%"
+    mensagemVencedor.classList.remove('hide')
 }
