@@ -87,6 +87,7 @@ function gerarOponente(){
         housePicked.classList.add('button5')
         codigoOponente = 'pedra'
     }
+    declararVencedor()
     setTimeout(playAgain, 2000)
 }
 
@@ -94,3 +95,33 @@ function playAgain (){
     containerDisputa.style.width = "60%"
     mensagemVencedor.classList.remove('hide')
 }
+
+function declararVencedor (){
+    if(codigo == codigoOponente){
+        console.log('empaty')
+    }else if(codigo === 'tesoura' && codeHouse === 2 || codeHouse === 4){
+        winner()
+    }else if(codigo === 'papel' && codeHouse === 5 || codeHouse === 3){
+        winner()
+    }else if(codigo === 'spock' && codeHouse === 5 || codeHouse === 1){
+        winner()
+    }else if(codigo === 'lagarto' && codeHouse === 3 || codeHouse === 2 ){
+        winner()
+    }else if(codigo === 'pedra' && codeHouse === 4 || codeHouse === 1){
+        winner()
+    }else{
+        console.log('loser')
+    }
+}
+
+
+       // codigo == 2 && codeHouse == 5 || codigo == 2 && codeHouse == 3 ||
+       // codigo == 3 && codeHouse == 5 || codigo == 3 && codeHouse == 1 ||
+       // codigo == 4 && codeHouse == 3 || codigo == 4 && codeHouse == 2 ||
+       // codigo == 5 && codeHouse == 4 || codigo == 5 && codeHouse == 1 ){
+
+
+       function winner (){
+        console.log(codigo, codeHouse)
+        console.log('winner')
+       }

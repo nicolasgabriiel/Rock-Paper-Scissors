@@ -34,7 +34,7 @@
 - [x] Exibir a div oculta com o botão Selecionado
 - [x] Estilizar section onde acontecerá a disputa
 - [X] Criar lógica de escolher algum aleatóriamente
-- [ ] Criar Lógica de vencedor
+- [X] Criar Lógica de vencedor
 - [X] Exibir o Resultado na tela
 - [ ] Criar o efeito de background no vencedor
 - [ ] Receber o input do elemento play again
