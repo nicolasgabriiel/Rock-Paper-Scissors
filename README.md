@@ -38,7 +38,7 @@
 - [X] Exibir o Resultado na tela
 - [ ] Criar o efeito de background no vencedor
 - [x] Receber o input do elemento play again
-- [ ] Criar lógica pra escolher novamente
+- [X] Criar lógica pra escolher novamente
 - [ ] Receber input de score
 - [ ] Criar Lógica de Score
 - [ ] Exibir e estilizar na tela o score

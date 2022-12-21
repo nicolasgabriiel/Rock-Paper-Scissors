@@ -10,9 +10,11 @@ let housePicked = document.querySelector('.house-picked')
 
 const inserirMensagem = document.querySelector('#mensagemVencedor')
 
+const buttonPlayAgain = document.getElementById('playAgain')
+
 let codeHouse;
 
-let codigo;
+var codigo;
 
 let codigoOponente;
 
@@ -24,7 +26,7 @@ function seletor(code){
     selectionOne()
     selectionTwo()  
     gerarAleatório()
-    setTimeout(gerarOponente, 10)
+    setTimeout(gerarOponente, 100)
     
 }
 
@@ -40,7 +42,7 @@ function selectionOne(){
     youPicked.classList.add('button')
     youPicked.classList.add('button-individual')
 
-    if(codigo == 'pedra'){
+    if(codigo === 'pedra'){
         youPicked.classList.add('button5')
     }
     else if(codigo === 'tesoura'){
@@ -91,10 +93,10 @@ function gerarOponente(){
         codigoOponente = 'pedra'
     }
     declararVencedor()
-    setTimeout(playAgain, 20)
+    setTimeout(mostrarPlayAgain, 200)
 }
 
-function playAgain (){
+function mostrarPlayAgain (){
     containerDisputa.style.width = "60%"
     mensagemVencedor.classList.remove('hide')
 }
@@ -116,13 +118,21 @@ function declararVencedor (){
         loser()
     }
 }
-       function winner (){
+function winner (){
 
-        inserirMensagem.innerHTML = "you win"
-       }
-       function loser (){
-        inserirMensagem.innerHTML = "you lose"
-       }
-       function draw(){
-        inserirMensagem.innerHTML = "draw"
-       }
+inserirMensagem.innerHTML = "you win"
+}
+function loser (){
+inserirMensagem.innerHTML = "you lose"
+}
+function draw(){
+inserirMensagem.innerHTML = "draw"
+}
+
+buttonPlayAgain.addEventListener('click', playAgain)
+function playAgain (){
+    containerDisputa.classList.add('hide')
+    containerBotoes.classList.remove('hide')
+    housePicked.removeAttribute('class')
+    youPicked.removeAttribute('class')
+}
