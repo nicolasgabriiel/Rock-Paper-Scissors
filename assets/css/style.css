@@ -184,9 +184,7 @@ footer{
     width: 45%;
     height: 375px;
     margin-bottom: 70px;
-    /* mudar a width pra 60% */
 }
-
 .imagens-disputa{
     display: flex;
     justify-content: space-between;

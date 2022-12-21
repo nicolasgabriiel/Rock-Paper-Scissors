@@ -28,11 +28,59 @@
         margin: 90px auto;
         width: 80%;
         display: block;
-}
-.cabecalho-rules{
-    width: 80%;
-    margin: 10px auto;
-}
+    }
+    .cabecalho-rules{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .container-disputa{
+        width: 90%;
+        height: auto;
+    }
+
+    .titulo-disputa h3{
+        font-size: 10px;
+    }
+    .titulo-disputa:first-child{
+        margin-left: 0px;
+    }
+    .titulo-disputa h3:last-child{
+    margin-right: 0px;
+    }
+    .button-individual{
+    position: initial;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+    border-width: 7px;
+    }
+    .house-Vazia{
+    background-color: #111A30;
+    border: 5px solid #111A30;
+    }
+    .mensagem-vencedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center ;
+    }
+    .mensagem-vencedor h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    .mensagem-vencedor button{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 8px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: #4B4F64;
+        transition: .5s;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -48,6 +96,9 @@
     }
     .container-buttons{
         scale: .3;
+    }
+    .rules{
+        scale: .7;
     }
 }
 

@@ -36,19 +36,19 @@
 - [X] Criar lógica de escolher algum aleatóriamente
 - [X] Criar Lógica de vencedor
 - [X] Exibir o Resultado na tela
-- [ ] Criar o efeito de background no vencedor
 - [x] Receber o input do elemento play again
 - [X] Criar lógica pra escolher novamente
 - [x] Receber input de score
 - [x] Criar Lógica de Score
 - [x] Exibir e estilizar na tela o score
 - [X] Aplicar o Responsivo na página principal
-- [ ] Aplicar o Responsivo na Página secundária
+- [x] Aplicar o Responsivo na Página secundária
 - [X] Aplicar o Responsivo na Aba Rules
 - [ ] Aplicar testes para ver se tudo funciona adequadamente
 - [ ] Corrigir possíveis bugs que apareçam na última etapa
 - [ ] Melhorar Sombras e tamanho dos botoes 
 - [ ] Criando um bom Readme para o projeto
+- [ ] Criar o efeito de background no vencedor
 
 ### Bônus
 
