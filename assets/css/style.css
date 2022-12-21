@@ -5,8 +5,9 @@
 }
 body{
     width: 100%;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px );
     background-image: radial-gradient(circle farthest-side at 50% 0%, #1E3756 10%, #131637 100%);
+  
     font-family: 'Barlow Semi Condensed'
 }
 /*                   H E A D E R               */

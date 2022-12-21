@@ -42,9 +42,9 @@
 - [x] Receber input de score
 - [x] Criar Lógica de Score
 - [x] Exibir e estilizar na tela o score
-- [ ] Aplicar o Responsivo na página principal
+- [X] Aplicar o Responsivo na página principal
 - [ ] Aplicar o Responsivo na Página secundária
-- [ ] Aplicar o Responsivo na Aba Rules
+- [X] Aplicar o Responsivo na Aba Rules
 - [ ] Aplicar testes para ver se tudo funciona adequadamente
 - [ ] Corrigir possíveis bugs que apareçam na última etapa
 - [ ] Melhorar Sombras e tamanho dos botoes 
