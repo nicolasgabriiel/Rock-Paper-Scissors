@@ -8,11 +8,14 @@ let youPicked = document.querySelector('.you-picked')
 
 let housePicked = document.querySelector('.house-picked')
 
+const inserirMensagem = document.querySelector('#mensagemVencedor')
+
 let codeHouse;
 
 let codigo;
 
 let codigoOponente;
+
 
 function seletor(code){
     codigo = code
@@ -21,7 +24,7 @@ function seletor(code){
     selectionOne()
     selectionTwo()  
     gerarAleatório()
-    setTimeout(gerarOponente, 1000)
+    setTimeout(gerarOponente, 10)
     
 }
 
@@ -88,7 +91,7 @@ function gerarOponente(){
         codigoOponente = 'pedra'
     }
     declararVencedor()
-    setTimeout(playAgain, 2000)
+    setTimeout(playAgain, 20)
 }
 
 function playAgain (){
@@ -97,31 +100,29 @@ function playAgain (){
 }
 
 function declararVencedor (){
-    if(codigo == codigoOponente){
-        console.log('empaty')
-    }else if(codigo === 'tesoura' && codeHouse === 2 || codeHouse === 4){
+    if(codigo === codigoOponente){
+        draw()
+    }else if(codigo == 'tesoura' && codeHouse === 2 ||codigo == 'tesoura' &&  codeHouse === 4){
         winner()
-    }else if(codigo === 'papel' && codeHouse === 5 || codeHouse === 3){
+    }else if(codigo == 'papel' && codeHouse === 5 ||codigo == 'papel' && codeHouse === 3){
         winner()
-    }else if(codigo === 'spock' && codeHouse === 5 || codeHouse === 1){
+    }else if(codigo == 'spock' && codeHouse === 5 || codigo == 'spock' && codeHouse === 1){
         winner()
-    }else if(codigo === 'lagarto' && codeHouse === 3 || codeHouse === 2 ){
+    }else if(codigo == 'lagarto' && codeHouse === 3 || codigo == 'lagarto' && codeHouse === 2 ){
         winner()
-    }else if(codigo === 'pedra' && codeHouse === 4 || codeHouse === 1){
+    }else if(codigo == 'pedra' && codeHouse === 4 || codigo == 'pedra' && codeHouse === 1){
         winner()
     }else{
-        console.log('loser')
+        loser()
     }
 }
-
-
-       // codigo == 2 && codeHouse == 5 || codigo == 2 && codeHouse == 3 ||
-       // codigo == 3 && codeHouse == 5 || codigo == 3 && codeHouse == 1 ||
-       // codigo == 4 && codeHouse == 3 || codigo == 4 && codeHouse == 2 ||
-       // codigo == 5 && codeHouse == 4 || codigo == 5 && codeHouse == 1 ){
-
-
        function winner (){
-        console.log(codigo, codeHouse)
-        console.log('winner')
+
+        inserirMensagem.innerHTML = "you win"
+       }
+       function loser (){
+        inserirMensagem.innerHTML = "you lose"
+       }
+       function draw(){
+        inserirMensagem.innerHTML = "draw"
        }
