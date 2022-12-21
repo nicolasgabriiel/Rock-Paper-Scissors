@@ -24,6 +24,7 @@ function ofuscarPagina (){
     document.querySelector('header').style.opacity = ".2"
     document.querySelector('.container-buttons').style.opacity = ".2"
     document.querySelector('footer').style.opacity = ".2"
+    containerDisputa.style.opacity = ".2"
 }
 //Função que mostra a Página Rules oculta
 function mostrarRules(){
@@ -45,6 +46,7 @@ function habilitarPagina (){
         document.querySelector('header').style.opacity = "1"
         document.querySelector('.container-buttons').style.opacity = "1"
         document.querySelector('footer').style.opacity = "1"
+        containerDisputa.style.opacity = "1"
 }
 //Função que oculta a Página Rules oculta
 function ocultarRules(){
