@@ -39,9 +39,9 @@
 - [ ] Criar o efeito de background no vencedor
 - [x] Receber o input do elemento play again
 - [X] Criar lógica pra escolher novamente
-- [ ] Receber input de score
-- [ ] Criar Lógica de Score
-- [ ] Exibir e estilizar na tela o score
+- [x] Receber input de score
+- [x] Criar Lógica de Score
+- [x] Exibir e estilizar na tela o score
 - [ ] Aplicar o Responsivo na página principal
 - [ ] Aplicar o Responsivo na Página secundária
 - [ ] Aplicar o Responsivo na Aba Rules
