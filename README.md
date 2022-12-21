@@ -52,8 +52,8 @@
 
 ### Bônus
 
-- [ ] Efeitos sonoros especiais
-- [ ] Criar botão de tema
+- [X] Efeitos sonoros especiais
+
 
 
 ~~~~~~css

@@ -1,3 +1,5 @@
+const sounds = document.querySelectorAll('audio')
+
 const containerBotoes = document.querySelector('.container-buttons')
 
 const containerDisputa = document.querySelector('.container-disputa')
@@ -25,13 +27,13 @@ let score = 0
 
 function seletor(code){
     codigo = code
+    sounds[0].play()
     fecharPrincipal()
     mostrarIndividual()
     selectionOne()
     selectionTwo()  
     gerarAleatório()
-    setTimeout(gerarOponente, 2000)
-    
+    setTimeout(gerarOponente, 3200)
 }
 
 function fecharPrincipal (){
@@ -127,15 +129,18 @@ function winner (){
 inserirMensagem.innerHTML = "you win"
 score = score + 1
 inserirScore.innerHTML = score
+sounds[1].play()
 }
 function loser (){
 inserirMensagem.innerHTML = "you lose"
 score = score - 1
 inserirScore.innerHTML = score
+sounds[2].play()
 }
 function draw(){
 inserirMensagem.innerHTML = "draw"
 inserirScore.innerHTML = score 
+sounds[2].play()
 }
 
 buttonPlayAgain.addEventListener('click', playAgain)
