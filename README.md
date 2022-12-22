@@ -34,22 +34,22 @@ O site deveria ter uma boa usabilidade, um design fiel ao oferecido, e oferecer 
 ### Screenshots
 
 <p align="center"> Página inicial 
-    <img width="768px" src="assets/readme/imagem-1.png"></img>
+    <img width="768px" src="assets/readme/image1.png"></img>
 </p>
 
 ------
 <p align="center"> Página de Regras
-    <img width="768px" src="assets/readme/imagem-2.png"></img>
+    <img width="768px" src="assets/readme/image2.png"></img>
 </p>
 
 ------
 <p align="center"> Página de Disputa
-    <img width="768px" src="assets/readme/imagem-3.png"></img>
+    <img width="768px" src="assets/readme/image3.png"></img>
 </p>
 
 ------
 <p align="center"> Página em modo responsivo
-    <img width="768px" src="assets/readme/imagem-4.png"></img>
+    <img width="768px" src="assets/readme/image4.png"></img>
 </p>
 
 ------
