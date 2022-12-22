@@ -49,7 +49,7 @@ O site deveria ter uma boa usabilidade, um design fiel ao oferecido, e oferecer 
 
 ------
 <p align="center"> Página em modo responsivo
-    <img width="768px" src="assets/readme/image4.png"></img>
+    <img width="400px" src="assets/readme/image4.png"></img>
 </p>
 
 ------
